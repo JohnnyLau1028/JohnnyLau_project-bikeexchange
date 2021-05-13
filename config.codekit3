@@ -21,6 +21,175 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/images\/aerobike.jpg" : {
+      "ft" : 16384,
+      "iS" : 327144,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/aerobike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/bikepriceimage.jpg" : {
+      "ft" : 16384,
+      "iS" : 635143,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/bikepriceimage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/biketypeimage.jpg" : {
+      "ft" : 16384,
+      "iS" : 533046,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/biketypeimage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/bikexchange_logo.png" : {
+      "ft" : 32768,
+      "iS" : 27257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/bikexchange_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/cxbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 515170,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/cxbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/fitnessbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 420015,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/fitnessbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/flatbarbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 418567,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/flatbarbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/Giantbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 65590,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/Giantbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/gravelbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 485954,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/gravelbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/racebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 327050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/racebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/righttypebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 639015,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/righttypebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/sportivebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 314290,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/sportivebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/ttbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 303857,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/ttbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -39,6 +208,86 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/Bikexchange.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Bikexchange.sketch",
+      "oF" : 0
+    },
+    "\/dev\/content\/_bikeintro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_bikeintro.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_biketypes1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_biketypes1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_biketypes2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_biketypes2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_footer.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_mission.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_mission.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_price.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_price.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_righttype.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_righttype.html",
+      "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -228,6 +477,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -238,7 +506,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "in-class-demo",
+    "displayValue" : "JohnnyLau_project-bikeexchange",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
