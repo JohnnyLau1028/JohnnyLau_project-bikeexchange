@@ -38,7 +38,7 @@ main {
 		"biketypes1"
 		"righttype"
 		"bikeintro"
-		"biketype2"
+		"biketypes2"
 		"price"
 		"footer";
 }
@@ -105,5 +105,130 @@ header {
 		justify-content: center;
 		}
 	}
+}
 
+.righttype {
+	grid-area: righttype;
+
+	.whatsright {
+		display: grid;
+		grid-template-columns: 450px;
+		gap: 20px;
+	}
+
+	@include md {
+		p {
+			display: grid;
+			grid-template-columns: 60%;
+			justify-content: center;
+		}
+	}
+}
+
+.bikeintro {
+	grid-area: bikeintro;
+
+	.paragraph{
+		display: grid;
+		grid-template-columns: 500px;
+	}
+
+	@include md {
+		.bikeintrodiv {
+			display: grid;
+			justify-content: center;
+		}
+		h3 {
+			display: grid;
+			justify-content: right;
+		}
+		.sportiveimage {
+			display: grid;
+			justify-content: left;
+		}
+		.paragraph {
+			display: grid;
+			justify-content: right;
+		}
+	}
+
+}
+
+.biketypes2 {
+	grid-area: biketypes2;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		ul {
+			display: grid;
+			justify-content: center;
+		}
+		.typediv {
+			display: grid;
+			grid-template-columns: 50% auto;
+			justify-content: center;
+		}
+	}
+}
+
+.price {
+	grid-area: price;
+
+	.typesbyprice {
+		display: grid;
+	}
+	.pricep {
+		display: grid;
+		grid-template-columns: 350px;
+		gap: 30px;
+	}
+	
+	@include md {
+		.pricep {
+			display: grid;
+			justify-content: center;
+		}
+		.priceimage {
+			display: grid;
+			justify-content: center;
+		}
+		h2 {
+			display: grid;
+			justify-content: center;
+		}
+	}
+}
+
+footer {
+	grid-area: footer;
+
+	.bikefooter {
+		display: grid;
+		grid-template-columns: 50% auto;
+		justify-content: center;
+		
+		.social ul {
+			display: flex;
+		}
+
+		@include md {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			justify-content: center;
+			gap: 30px;
+	
+			.bikelogo {
+				grid-column: 2 / 3;
+			}
+			.bikepara {
+				grid-column: 3 / 4;
+			}
+			.social {
+				grid-column: 3 / 4;
+			}
+		}
+	}
 }

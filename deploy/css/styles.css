@@ -386,7 +386,7 @@ ul li {
 
 main {
   display: grid;
-  grid-template-areas: "header" "mission" "hero" "biketypes1" "righttype" "bikeintro" "biketype2" "price" "footer";
+  grid-template-areas: "header" "mission" "hero" "biketypes1" "righttype" "bikeintro" "biketypes2" "price" "footer";
 }
 
 header {
@@ -442,6 +442,121 @@ header ul {
     display: grid;
     grid-template-columns: 600px 400px;
     justify-content: center;
+  }
+}
+
+.righttype {
+  grid-area: righttype;
+}
+.righttype .whatsright {
+  display: grid;
+  grid-template-columns: 450px;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .righttype p {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+  }
+}
+
+.bikeintro {
+  grid-area: bikeintro;
+}
+.bikeintro .paragraph {
+  display: grid;
+  grid-template-columns: 500px;
+}
+@media (min-width: 768px) {
+  .bikeintro .bikeintrodiv {
+    display: grid;
+    justify-content: center;
+  }
+  .bikeintro h3 {
+    display: grid;
+    justify-content: right;
+  }
+  .bikeintro .sportiveimage {
+    display: grid;
+    justify-content: left;
+  }
+  .bikeintro .paragraph {
+    display: grid;
+    justify-content: right;
+  }
+}
+
+.biketypes2 {
+  grid-area: biketypes2;
+}
+.biketypes2 ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .biketypes2 ul {
+    display: grid;
+    justify-content: center;
+  }
+  .biketypes2 .typediv {
+    display: grid;
+    grid-template-columns: 50% auto;
+    justify-content: center;
+  }
+}
+
+.price {
+  grid-area: price;
+}
+.price .typesbyprice {
+  display: grid;
+}
+.price .pricep {
+  display: grid;
+  grid-template-columns: 350px;
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  .price .pricep {
+    display: grid;
+    justify-content: center;
+  }
+  .price .priceimage {
+    display: grid;
+    justify-content: center;
+  }
+  .price h2 {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+footer {
+  grid-area: footer;
+}
+footer .bikefooter {
+  display: grid;
+  grid-template-columns: 50% auto;
+  justify-content: center;
+}
+footer .bikefooter .social ul {
+  display: flex;
+}
+@media (min-width: 768px) {
+  footer .bikefooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 30px;
+  }
+  footer .bikefooter .bikelogo {
+    grid-column: 2/3;
+  }
+  footer .bikefooter .bikepara {
+    grid-column: 3/4;
+  }
+  footer .bikefooter .social {
+    grid-column: 3/4;
   }
 }
 
