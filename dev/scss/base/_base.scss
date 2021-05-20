@@ -14,3 +14,96 @@ ul {
 		list-style: none;
 	}
 }
+
+.content {
+    margin-bottom: 24px;
+
+    @include md {
+        margin-bottom: 32px;
+    }
+    @include lg {
+        margin-bottom: 64px;
+    }
+    @include xl {
+        margin-bottom: 64px;
+    }
+}
+
+main {
+	display: grid;
+	grid-template-areas: 
+		"header"
+		"mission"
+		"hero"
+		"biketypes1"
+		"righttype"
+		"bikeintro"
+		"biketype2"
+		"price"
+		"footer";
+}
+
+header {
+	grid-area: header;
+
+	.logo {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 70% auto;
+	}
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		ul {
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			gap: 20px;
+		}
+	}
+}
+
+.mission {
+	grid-area: mission;
+
+	.mission1 {
+		display: grid;
+		grid-template-columns: 50px 400px 50px;
+	}
+
+	@include md {
+		.mission1 {
+			display: grid;
+			justify-content: center;
+		}
+	}
+}
+
+.hero {
+	grid-area: hero;
+
+	.roadbike {
+		display: grid;
+		grid-template-columns: 150px;
+		grid-template-rows: 30px auto;
+	}
+}
+
+.biketypes1 {
+	grid-area: biketypes1;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		ul li {
+		display: grid;
+		grid-template-columns: 600px 400px;
+		justify-content: center;
+		}
+	}
+
+}

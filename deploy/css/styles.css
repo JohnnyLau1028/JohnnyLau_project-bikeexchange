@@ -365,6 +365,86 @@ ul li {
   list-style: none;
 }
 
+.content {
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-bottom: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  .content {
+    margin-bottom: 64px;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-areas: "header" "mission" "hero" "biketypes1" "righttype" "bikeintro" "biketype2" "price" "footer";
+}
+
+header {
+  grid-area: header;
+}
+header .logo {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 70% auto;
+}
+header ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  header ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+}
+
+.mission {
+  grid-area: mission;
+}
+.mission .mission1 {
+  display: grid;
+  grid-template-columns: 50px 400px 50px;
+}
+@media (min-width: 768px) {
+  .mission .mission1 {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+.hero {
+  grid-area: hero;
+}
+.hero .roadbike {
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: 30px auto;
+}
+
+.biketypes1 {
+  grid-area: biketypes1;
+}
+.biketypes1 ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .biketypes1 ul li {
+    display: grid;
+    grid-template-columns: 600px 400px;
+    justify-content: center;
+  }
+}
+
 /* =============
     Typography
 ============= */
