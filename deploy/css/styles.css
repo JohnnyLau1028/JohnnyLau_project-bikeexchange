@@ -395,7 +395,8 @@ header {
 header .logo {
   display: grid;
   justify-content: center;
-  grid-template-columns: 70% auto;
+  align-items: flex-end;
+  grid-template-columns: 60% auto;
 }
 header ul {
   display: grid;
@@ -404,7 +405,7 @@ header ul {
   header ul {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
+    grid-gap: 20px;
   }
 }
 
@@ -441,7 +442,12 @@ header ul {
   .biketypes1 ul li {
     display: grid;
     grid-template-columns: 600px 400px;
+    grid-template-rows: repeat(5, 100px);
     justify-content: center;
+  }
+  .biketypes1 ul li .bikeleft {
+    grid-row: 3/5;
+    grid-column: 2/auto;
   }
 }
 
@@ -451,7 +457,7 @@ header ul {
 .righttype .whatsright {
   display: grid;
   grid-template-columns: 450px;
-  gap: 20px;
+  grid-gap: 20px;
 }
 @media (min-width: 768px) {
   .righttype p {
@@ -485,6 +491,9 @@ header ul {
     display: grid;
     justify-content: right;
   }
+  .bikeintro .for {
+    display: grid;
+  }
 }
 
 .biketypes2 {
@@ -514,7 +523,7 @@ header ul {
 .price .pricep {
   display: grid;
   grid-template-columns: 350px;
-  gap: 30px;
+  grid-gap: 30px;
 }
 @media (min-width: 768px) {
   .price .pricep {
@@ -536,7 +545,7 @@ footer {
 }
 footer .bikefooter {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
 footer .bikefooter .social ul {
@@ -547,7 +556,7 @@ footer .bikefooter .social ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    gap: 30px;
+    grid-gap: 30px;
   }
   footer .bikefooter .bikelogo {
     grid-column: 2/3;
@@ -578,4 +587,8 @@ p {
 
 .section-title {
   font-weight: 300;
+}
+
+img {
+  width: 100%;
 }
