@@ -85,10 +85,28 @@ header {
 .hero {
 	grid-area: hero;
 
-	.roadbike {
+	.heroimage {
 		display: grid;
-		grid-template-columns: 150px;
-		grid-template-rows: 30px auto;
+		grid-template-columns: repeat( 3, 1fr);
+		grid-template-rows: repeat( 3, 1fr);
+		justify-content: center;
+
+		.roadbike {
+			grid-row: 2 / 3;
+		}
+	}
+
+	@include md {
+		.heroimage {
+			display: grid;
+			grid-template-columns: repeat( 4, 1fr);
+			grid-template-rows: repeat( 4, 1fr);
+			justify-content: center;
+	
+			.roadbike {
+				grid-row: 2 / 3;
+			}
+		}
 	}
 }
 

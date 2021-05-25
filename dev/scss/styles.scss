@@ -9,5 +9,15 @@
 @import "base/_base";
 @import "base/_typography";
 
-// section Styles
-@import "section/_biketypes1"
+// Layout Styles
+@import "layout/_header";
+@import "layout/_footer";
+
+// Section Styles
+@import "section/_mission";
+@import "section/_hero";
+@import "section/_biketypes1";
+@import "section/_righttype";
+@import "section/_bikeintro";
+@import "section/_biketypes2";
+@import "section/_price";
