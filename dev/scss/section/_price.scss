@@ -1,0 +1,21 @@
+.price {
+    .priceimage {
+        background-image: url(../../../deploy/images/bikepriceimage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 75vh;
+
+        .typesbyprice {
+            position: relative;
+          }
+          
+        .typesbyprice {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+          }
+    }
+}
