@@ -1,0 +1,30 @@
+.biketypes1 {
+    .sportivebike {
+        background-image: url("../../deploy/images/sportivebike.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+    .racebike {
+        background-image: url("../../deploy/images/racebike.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .aerobike {
+        background-image: url("../../deploy/images/aerobike.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .timetrialbike {
+        background-image: url("../../deploy/images/ttbike.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+}

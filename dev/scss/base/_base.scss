@@ -71,13 +71,15 @@ header {
 
 	.mission1 {
 		display: grid;
-		grid-template-columns: 50px 400px 50px;
+		text-align: center;
+		grid-template-columns: auto 400px auto;
 	}
 
 	@include md {
 		.mission1 {
 			display: grid;
 			justify-content: center;
+			text-align: center;
 		}
 	}
 }
@@ -113,26 +115,36 @@ header {
 .biketypes1 {
 	grid-area: biketypes1;
 
-	ul {
-		display: grid;
-	}
-
 	@include md {
 		ul li {
 			display: grid;
 			grid-template-columns: repeat(9 , 100px);
-			grid-template-rows: repeat(6, 90px);
+			grid-template-rows: repeat(7, 90px);
 			justify-content: center;
+
+			.sportivebike {
+				grid-column: 1 / 8;
+				grid-row: 2 / 7;
+			}
+			.aerobike {
+				grid-column: 1 / 8;
+				grid-row: 2 / 7;
+			}
+			.racebike {
+				grid-column: 4 / 10;
+				grid-row: 2 / 7;
+			}
+			.timetrialbike {
+				grid-column: 4 / 10;
+				grid-row: 2 / 7;
+			}
 			.bikeleft {
 				grid-column: 6 / 9;
-				grid-row: 4 / 6;
-			}
-			.bikerightimage {
-				grid-column: 4 / 9;
+				grid-row: 5 / 7;
 			}
 			.bikeright {
 				grid-column: 2 / 5;
-				grid-row: 4 / 6;
+				grid-row: 5 / 7;
 			}
 		}
 	}
@@ -193,8 +205,8 @@ header {
 				grid-row: 5 / 6;
 			}
 			.nameofbike {
-				grid-column: 3 / 6;
-				grid-row: 2 / 4;
+				grid-column: 3 / 7;
+				grid-row: 2;
 			}
 			.bikeparagraph {
 				grid-column: 3 / 6;
