@@ -1,3 +1,20 @@
 /* =============
     Footer
 ============= */
+footer {
+    background-color: $darkblue;
+    h4 {
+        font-weight: 700;
+        font-size: 12px;
+        color: $pricecolor;
+    }
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        color: $pricecolor;
+    }
+    .social-icon a {
+		color: $pricecolor;
+		font-size: 30px;
+	}
+}

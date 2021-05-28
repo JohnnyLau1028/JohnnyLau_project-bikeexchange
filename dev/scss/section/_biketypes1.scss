@@ -1,4 +1,19 @@
 .biketypes1 {
+    h3,h4,p {
+        color: $brown;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    h4 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    p {
+        font-weight: 600;
+        font-size: 16px;
+    }
     .sportivebike {
         background-image: url("../../deploy/images/sportivebike.jpg");
         background-size: cover;
