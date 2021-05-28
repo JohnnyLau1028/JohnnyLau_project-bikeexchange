@@ -544,6 +544,7 @@ header ul {
   .bikeintro .bikeintrodiv .for {
     grid-column: 2/3;
     grid-row: 5/6;
+    text-align: right;
   }
   .bikeintro .bikeintrodiv .nameofbike {
     grid-column: 3/7;
