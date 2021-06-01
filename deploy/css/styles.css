@@ -686,7 +686,22 @@ footer .social-icon a {
 }
 .mission h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 45px;
+}
+@media (min-width: 576px) {
+  .mission h1 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .mission h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .mission h1 {
+    font-size: 80px;
+  }
 }
 .mission p {
   font-weight: 400;
@@ -699,7 +714,7 @@ footer .social-icon a {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 75vh;
 }
 .hero .roadbike {
   background-color: rgba(10, 69, 108, 0.3);
@@ -734,29 +749,29 @@ footer .social-icon a {
   background-image: url("../../deploy/images/sportivebike.jpg");
   background-size: cover;
   background-position: center;
-  height: 100%;
   width: 100%;
+  height: 450px;
 }
 .biketypes1 .racebike {
   background-image: url("../../deploy/images/racebike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 450px;
 }
 .biketypes1 .aerobike {
   background-image: url("../../deploy/images/aerobike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 450px;
 }
 .biketypes1 .timetrialbike {
   background-image: url("../../deploy/images/ttbike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 450px;
 }
 
 .righttype h1 {
@@ -822,28 +837,29 @@ footer .social-icon a {
   background-image: url("../../deploy/images/fitnessbike.jpg");
   background-size: cover;
   background-position: center;
-  height: 100%;
+  width: 100%;
+  height: 540px;
 }
 .biketypes2 .flatbarbike {
   background-image: url("../../deploy/images/flatbarbike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 540px;
 }
 .biketypes2 .gravelbike {
   background-image: url("../../deploy/images/gravelbike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 540px;
 }
 .biketypes2 .cxbike {
   background-image: url("../../deploy/images/cxbike.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 540px;
 }
 
 .price h2 {

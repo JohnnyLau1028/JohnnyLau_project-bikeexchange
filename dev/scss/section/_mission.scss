@@ -6,7 +6,17 @@
     }
     h1 {
         font-weight: 700;
-        font-size: 70px; 
+        font-size: 45px;
+        @include sm {
+            font-size: 60px;
+        }
+        @include md {
+            font-size: 70px;
+        }
+        @include lg {
+            font-size: 80px;
+        }
+
     }
     p{
         font-weight: 400;
