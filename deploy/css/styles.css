@@ -397,6 +397,10 @@ header .logo {
   justify-content: center;
   align-items: flex-end;
 }
+header .search {
+  display: grid;
+  justify-content: right;
+}
 header ul {
   display: grid;
 }
@@ -483,11 +487,11 @@ header ul {
   }
   .biketypes1 ul li .bikeleft {
     grid-column: 6/9;
-    grid-row: 5/7;
+    grid-row: 5/8;
   }
   .biketypes1 ul li .bikeright {
     grid-column: 2/5;
-    grid-row: 5/7;
+    grid-row: 5/8;
   }
 }
 
@@ -534,25 +538,24 @@ header ul {
   .bikeintro .bikeintrodiv {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 75px);
+    grid-template-rows: repeat(4, 75px);
     grid-gap: 20px;
   }
   .bikeintro .bikeintrodiv .sportiveimage {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 1/2;
   }
   .bikeintro .bikeintrodiv .for {
     grid-column: 2/3;
-    grid-row: 5/6;
-    text-align: right;
+    grid-row: 4/5;
   }
   .bikeintro .bikeintrodiv .nameofbike {
     grid-column: 3/7;
-    grid-row: 2;
+    grid-row: 1;
   }
   .bikeintro .bikeintrodiv .bikeparagraph {
     grid-column: 3/6;
-    grid-row: 3;
+    grid-row: 2;
   }
 }
 
@@ -616,7 +619,7 @@ footer .bikefooter .social ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    grid-gap: 30px;
+    grid-gap: 15px;
   }
   footer .bikefooter .bikelogo {
     grid-column: 2/3;
@@ -657,12 +660,20 @@ p {
 header {
   background-color: #05263c;
 }
+header .logo {
+  border-bottom: 8px solid #72BCEA;
+  padding-bottom: 20px;
+}
+header ul {
+  padding: 20px;
+}
 
 /* =============
     Footer
 ============= */
 footer {
   background-color: #05263C;
+  padding: 50px 0 50px 0;
 }
 footer h4 {
   font-weight: 700;
@@ -673,9 +684,12 @@ footer p {
   font-weight: 400;
   font-size: 12px;
   color: #DCD9D4;
+  margin: 10px;
 }
 footer .social-icon a {
   color: #DCD9D4;
+  margin: 5px;
+  padding: 5px;
   font-size: 30px;
 }
 
@@ -718,6 +732,7 @@ footer .social-icon a {
 }
 .hero .roadbike {
   background-color: rgba(10, 69, 108, 0.3);
+  padding: 25px;
 }
 .hero h3 {
   font-weight: 700;
@@ -730,6 +745,16 @@ footer .social-icon a {
   color: #F5F0EA;
 }
 
+@media (min-width: 576px) {
+  .biketypes1 {
+    margin: 90px 0 90px 0;
+  }
+}
+@media (min-width: 768px) {
+  .biketypes1 {
+    margin: 0 0 90px 0;
+  }
+}
 .biketypes1 h3, .biketypes1 h4, .biketypes1 p {
   color: #1D1202;
 }
@@ -773,6 +798,10 @@ footer .social-icon a {
   width: 100%;
   height: 450px;
 }
+.biketypes1 .bikeleft, .biketypes1 .bikeright {
+  background-color: #1070AD;
+  padding: 20px;
+}
 
 .righttype h1 {
   font-weight: 700;
@@ -796,6 +825,9 @@ footer .social-icon a {
   background-color: rgba(5, 38, 60, 0.5);
 }
 
+.bikeintro {
+  margin: 50px 0 50px 0;
+}
 .bikeintro h3 {
   font-weight: 700;
   font-size: 24px;
@@ -813,11 +845,16 @@ footer .social-icon a {
 }
 .bikeintro .nameofbike {
   background-color: rgba(4, 104, 107, 0.3);
+  padding: 19px;
 }
 .bikeintro .for {
   background-color: rgba(10, 69, 108, 0.3);
+  padding: 0 80px;
 }
 
+.biketypes2 ul li {
+  margin: 0 0 25px 0;
+}
 .biketypes2 h3, .biketypes2 h4, .biketypes2 p {
   color: #1D1202;
 }
@@ -862,6 +899,9 @@ footer .social-icon a {
   height: 540px;
 }
 
+.price {
+  margin: 0 0 50px 0;
+}
 .price h2 {
   font-weight: 700;
   font-size: 36px;
@@ -871,6 +911,7 @@ footer .social-icon a {
   font-weight: 600;
   font-size: 12px;
   color: #1D1202;
+  padding: 10px 0 0 0;
 }
 .price .priceimage {
   background-image: url("../../../deploy/images/bikepriceimage.jpg");
