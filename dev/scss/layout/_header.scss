@@ -9,6 +9,20 @@ header{
 		padding-bottom: 20px;
     }
 
+    input {
+        background-color: $white;
+        border-color: $lightblue;
+        border-radius: 15px;
+        height: 25px;
+    }
+
+    form button {
+        background: $lightblue;
+        border: none;
+        border-radius: 10px;
+        height: 25px;
+    }
+
     ul {
         padding: 20px;
     }

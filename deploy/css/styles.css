@@ -664,6 +664,18 @@ header .logo {
   border-bottom: 8px solid #72BCEA;
   padding-bottom: 20px;
 }
+header input {
+  background-color: #fff;
+  border-color: #72BCEA;
+  border-radius: 15px;
+  height: 25px;
+}
+header form button {
+  background: #72BCEA;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+}
 header ul {
   padding: 20px;
 }
