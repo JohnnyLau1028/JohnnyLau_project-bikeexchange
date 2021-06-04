@@ -6,27 +6,27 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		
 		<!-- Google Font -->
-		<link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=3E19D0222228DAE76398FD5843C8D7F5">
+		<link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=79F24B1788F6CF6C099494801EA2F93D">
 		<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&display=swap" rel="stylesheet">
 	
-		<link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=1F1A33EA9161C6D015412107A558E827">
+		<link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=68A8BC2D9E4040F27C75B239BE8AB997">
 		<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 	
 		<!-- Font Awesome -->
-		<script src="https://kit.fontawesome.com/db8be9eca2.js?ckcachebust=644389861"crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/db8be9eca2.js?ckcachebust=644456762"crossorigin="anonymous">
 		</script>
 	
-		<link rel="stylesheet" href="css/styles.css?ckcachebust=3EBFF81561A6C63306D3C56CF217DFDB" />
+		<link rel="stylesheet" href="css/styles.css?ckcachebust=6A5C3F3117D230406CA90943DC5EECB4" />
 		<title>JohnnyLau_project-bikeexchange</title>
 	</head>
 	
 
 	<body>
 		 <!-- jQuery -->
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?ckcachebust=644389861"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?ckcachebust=644456762"></script>
 		
 		 <!-- Greensock -->
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js?ckcachebust=644389861"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js?ckcachebust=644456762"></script>
 		
 		 <script src="js/scripts-min.js?ckcachebust=BE5A3515883CBCD59A6D5A986AF5E683"></script>
 		<main>
@@ -43,52 +43,21 @@
 			        </section>
 			    </section>
 			    
-			    <section>
-			        <ul>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>MTB</h3>
-			                    </div>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>ROAD</h3>
-			                    </div>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>ELECTRIC</h3>
-			                    </div>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>OTHER</h3>
-			                    </div>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>BRANDS</h3>
-			                    </div>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="#">
-			                    <div>
-			                        <h3>REVIEWS</h3>
-			                    </div>
-			                </a>
-			            </li>
-			        </ul>
-			    </section>
+			        <div class="nav">
+			            <section id="burger-container">
+			                <i class="fas fa-bars nav-btns" id="burger-icon"></i>
+			            </section>
+			    
+			            <nav id="nav-container" data-nav="main-navigation">
+			                <ul>
+			                    <li><a href="#mtb" class="nav-btns">MTB</a></li>
+			                    <li><a href="#road" class="nav-btns">ROAD</a></li>
+			                    <li><a href="#details" class="nav-btns">DETAILS</a></li>
+			                    <li><a href="#brandandprice" class="nav-btns">BRANDS & PRICE</a></li>
+			                    <li><a href="#" class="nav-btns">OTHER</a></li>
+			                </ul>
+			            </nav>
+			        </div>
 			</header>
 			
 			<section class="mission">
@@ -126,7 +95,7 @@
 									        </div>
 									    </div>
 									</Section>
-			<section class="biketypes1">
+			<section id="mtb" class="biketypes1">
 												    <ul>
 												        <li>
 												            <div class="sportivebike">
@@ -254,7 +223,7 @@
 															        </div>
 															    </div>
 															</section>
-			<section class="bikeintro">
+			<section id="details" class="bikeintro">
 																		    <div class="bikeintrodiv">
 																		        <div class="nameofbike">
 																		            <h3>Sportive / Endurance Road Bikes</h3>
@@ -304,7 +273,7 @@
 																		        </div>
 																		    </div>
 																		</section>
-			<section class="biketypes2">
+			<section id="road" class="biketypes2">
 																					    <ul>
 																					        <li>
 																					            <div class="fitnessbike">
@@ -423,7 +392,7 @@
 																					        </li>
 																					    </ul>
 																					</section>
-			<section class="price">
+			<section id="brandandprice" class="price">
 																								    <div class="priceimage">
 																								        <div class="typesbyprice">
 																								            <h2>Road Bike Types By Price</h2>
