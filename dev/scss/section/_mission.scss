@@ -1,5 +1,9 @@
 .mission {
-    padding: 125px 0 0 0;
+    padding: 250px 0 0 0;
+    @include md {
+        padding: 150px 0 0 0;
+    }
+    
     .mission1{
         background-color: $cream;
         padding: 75px;
@@ -9,7 +13,7 @@
         font-weight: 700;
         font-size: 40px;
         @include sm {
-            font-size: 60px;
+            font-size: 50px;
         }
         @include md {
             font-size: 70px;

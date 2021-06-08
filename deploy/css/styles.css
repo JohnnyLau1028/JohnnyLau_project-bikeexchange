@@ -658,8 +658,7 @@ p {
     Header
 ============= */
 header {
-  background-color: #05263c;
-  background: #05263C;
+  background-color: #05263C;
   left: 0;
   position: fixed;
   top: 0;
@@ -752,7 +751,12 @@ footer .social-icon a {
 }
 
 .mission {
-  padding: 125px 0 0 0;
+  padding: 250px 0 0 0;
+}
+@media (min-width: 768px) {
+  .mission {
+    padding: 150px 0 0 0;
+  }
 }
 .mission .mission1 {
   background-color: #EBE6DF;
@@ -765,7 +769,7 @@ footer .social-icon a {
 }
 @media (min-width: 576px) {
   .mission h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 @media (min-width: 768px) {
