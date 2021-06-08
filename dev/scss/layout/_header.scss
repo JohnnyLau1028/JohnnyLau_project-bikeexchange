@@ -3,6 +3,12 @@
 ============= */
 header{
     background-color: rgb(5, 38, 60);
+	background: $darkblue;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: space-between;
 
     .logo {
         border-bottom: 8px solid $lightblue;
@@ -26,7 +32,7 @@ header{
     ul {
         padding: 20px;
     }
-
+	
     .nav {
 		display: flex;
 		justify-content: space-between;
@@ -61,7 +67,7 @@ header{
 			display: flex;
 			padding: 10px;
 
-			@include lg {
+			@include md {
 				display: none !important;
 			}
 

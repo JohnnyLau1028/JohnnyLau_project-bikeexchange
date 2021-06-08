@@ -659,6 +659,12 @@ p {
 ============= */
 header {
   background-color: #05263c;
+  background: #05263C;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
 }
 header .logo {
   border-bottom: 8px solid #72BCEA;
@@ -710,7 +716,7 @@ header .nav #burger-container {
   display: flex;
   padding: 10px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   header .nav #burger-container {
     display: none !important;
   }
@@ -745,11 +751,13 @@ footer .social-icon a {
   font-size: 30px;
 }
 
+.mission {
+  padding: 125px 0 0 0;
+}
 .mission .mission1 {
   background-color: #EBE6DF;
-  padding: 50px;
-  color: #1D1202;
   padding: 75px;
+  color: #1D1202;
 }
 .mission h1 {
   font-weight: 700;
