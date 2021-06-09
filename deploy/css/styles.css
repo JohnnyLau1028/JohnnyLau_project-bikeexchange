@@ -465,24 +465,24 @@ header ul {
 @media (min-width: 768px) {
   .biketypes1 ul li {
     display: grid;
-    grid-template-columns: repeat(9, 100px);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(7, 90px);
     justify-content: center;
   }
   .biketypes1 ul li .sportivebike {
-    grid-column: 1/8;
+    grid-column: 2/8;
     grid-row: 2/7;
   }
   .biketypes1 ul li .aerobike {
-    grid-column: 1/8;
+    grid-column: 2/8;
     grid-row: 2/7;
   }
   .biketypes1 ul li .racebike {
-    grid-column: 4/10;
+    grid-column: 4/9;
     grid-row: 2/7;
   }
   .biketypes1 ul li .timetrialbike {
-    grid-column: 4/10;
+    grid-column: 4/9;
     grid-row: 2/7;
   }
   .biketypes1 ul li .bikeleft {
@@ -683,6 +683,7 @@ header form button {
 }
 header ul {
   padding: 20px;
+  justify-content: center;
 }
 header .nav {
   display: flex;
