@@ -401,9 +401,6 @@ header .search {
   display: grid;
   justify-content: right;
 }
-header ul {
-  display: grid;
-}
 @media (min-width: 768px) {
   header ul {
     display: grid;
