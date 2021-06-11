@@ -404,8 +404,8 @@ header .search {
 @media (min-width: 768px) {
   header ul {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
   }
   header .logo {
     display: grid;
@@ -652,6 +652,53 @@ p {
 }
 
 /* =============
+    Navigation
+============= */
+#nav-container {
+  background-color: #05263C;
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 178px;
+}
+#nav-container .nav-btns {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #fff;
+  padding: 10px 5px;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+}
+#nav-container .nav-btns:hover {
+  border-bottom: 2px solid #05263C;
+}
+#nav-container .nav-btns:active {
+  background: #1D1202;
+}
+#nav-container ul li {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #nav-container {
+    background-color: none;
+    display: block !important;
+    position: unset;
+    width: auto;
+  }
+  #nav-container .nav-btns {
+    color: #F5F0EA;
+  }
+  #nav-container ul {
+    display: flex;
+    align-items: center;
+  }
+  #nav-container ul li {
+    margin: 10px;
+  }
+}
+
+/* =============
     Header
 ============= */
 header {
@@ -681,6 +728,7 @@ header form button {
 header ul {
   padding: 20px;
   justify-content: center;
+  text-align: center;
 }
 header .nav {
   display: flex;
@@ -749,7 +797,7 @@ footer .social-icon a {
 }
 
 .mission {
-  padding: 250px 0 0 0;
+  padding: 175px 0 0 0;
 }
 @media (min-width: 768px) {
   .mission {

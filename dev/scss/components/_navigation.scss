@@ -2,7 +2,7 @@
     Navigation
 ============= */
 #nav-container {
-	background-color: $cream;
+	background-color: $darkblue;
 	display: none;
 	width: 100%;
 	position: absolute;
@@ -17,7 +17,6 @@
 		width: 100%;
 		border-bottom: 2px solid transparent;
 		&:hover {
-			// background: $blueCharcoal;
 			border-bottom: 2px solid $darkblue;
 		}
 		&:active {
@@ -27,20 +26,20 @@
 	ul li {
 		text-align: center;
 	}
-	@include lg {
+	@include md {
 		background-color: none;
 		display: block !important;
 		position: unset;
 		width: auto;
 		.nav-btns {
-			color: $seaFog;
+			color: $lightcream;
 		}
 		ul {
 			display: flex;
 			align-items: center;
 		}
 		ul li {
-			margin: 20px;
+			margin: 10px;
 		}
 	}
 }
