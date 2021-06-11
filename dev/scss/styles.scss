@@ -8,3 +8,21 @@
 @import "base/_normalize";
 @import "base/_base";
 @import "base/_typography";
+
+// Components Styles
+@import "components/_buttons";
+@import "components/_forms";
+@import "components/_navigation";
+
+// Layout Styles
+@import "layout/_header";
+@import "layout/_footer";
+
+// Section Styles
+@import "section/_mission";
+@import "section/_hero";
+@import "section/_biketypes1";
+@import "section/_righttype";
+@import "section/_bikeintro";
+@import "section/_biketypes2";
+@import "section/_price";

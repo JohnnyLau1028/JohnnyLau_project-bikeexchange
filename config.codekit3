@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -20,6 +28,175 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/images\/aerobike.jpg" : {
+      "ft" : 16384,
+      "iS" : 327144,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/aerobike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/bikepriceimage.jpg" : {
+      "ft" : 16384,
+      "iS" : 635143,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/bikepriceimage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/biketypeimage.jpg" : {
+      "ft" : 16384,
+      "iS" : 533046,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/biketypeimage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/bikexchange_logo.png" : {
+      "ft" : 32768,
+      "iS" : 27257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/bikexchange_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/cxbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 515170,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/cxbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/fitnessbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 420015,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/fitnessbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/flatbarbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 418567,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/flatbarbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/Giantbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 65590,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/Giantbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/gravelbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 485954,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/gravelbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/racebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 327050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/racebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/righttypebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 639015,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/righttypebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/sportivebike.jpg" : {
+      "ft" : 16384,
+      "iS" : 314290,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/sportivebike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/ttbike.jpg" : {
+      "ft" : 16384,
+      "iS" : 303857,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/ttbike.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -40,6 +217,86 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/design\/Bikexchange.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Bikexchange.sketch",
+      "oF" : 0
+    },
+    "\/dev\/content\/_bikeintro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_bikeintro.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_biketypes1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_biketypes1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_biketypes2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_biketypes2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_footer.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_mission.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_mission.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_price.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_price.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_righttype.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_righttype.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -57,7 +314,7 @@
       "oF" : 0
     },
     "\/dev\/index.kit" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
@@ -65,7 +322,7 @@
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -215,6 +472,104 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/section\/_bikeintro.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_bikeintro.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_biketypes1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_biketypes1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_biketypes2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_biketypes2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_mission.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_mission.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_price.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_price.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/section\/_righttype.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/section\/_righttype.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -228,6 +583,58 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/node_modules\/jquery\/dist\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/jquery\/dist\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -238,7 +645,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "in-class-demo",
+    "displayValue" : "JohnnyLau_project-bikeexchange",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
@@ -684,7 +1091,7 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8193,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
@@ -998,7 +1405,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {

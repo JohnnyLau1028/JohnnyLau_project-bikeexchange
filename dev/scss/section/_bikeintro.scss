@@ -1,0 +1,26 @@
+.bikeintro {
+    margin: 50px 0 50px 0;
+    h3 {
+        font-weight: 700;
+        font-size: 24px;
+        color: $brown;
+    }
+    h4 {
+        font-weight: 700;
+        font-size: 20px;
+        color: $brown;
+    }
+    p { 
+        font-weight: 500;
+        font-size: 12px;
+        color: $brown;
+    }
+    .nameofbike{
+        background-color: rgb(4, 104, 107, .3);
+        padding: 19px;
+    }
+    .for {
+        background-color: rgb(10, 69, 108, .3);
+        padding: 0 80px;
+    }
+}

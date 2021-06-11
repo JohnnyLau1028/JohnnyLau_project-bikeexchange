@@ -1,0 +1,33 @@
+.mission {
+    padding: 175px 0 0 0;
+    @include md {
+        padding: 150px 0 0 0;
+    }
+    
+    .mission1{
+        background-color: $cream;
+        padding: 75px;
+        color: $brown;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        @include sm {
+            font-size: 50px;
+        }
+        @include md {
+            font-size: 70px;
+        }
+        @include lg {
+            font-size: 80px;
+            p {
+                font-size: 14;
+            }
+        }
+
+    }
+    p{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
