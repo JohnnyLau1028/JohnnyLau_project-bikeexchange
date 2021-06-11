@@ -6,7 +6,8 @@
 	display: none;
 	width: 100%;
 	position: absolute;
-	top: 178px;
+	top: 170px;
+	left: 0;
 	
 	.nav-btns {
 		display: inline-block;
@@ -17,7 +18,7 @@
 		width: 100%;
 		border-bottom: 2px solid transparent;
 		&:hover {
-			border-bottom: 2px solid $darkblue;
+			border-bottom: 2px solid $lightblue;
 		}
 		&:active {
 			background: $brown;
@@ -32,14 +33,14 @@
 		position: unset;
 		width: auto;
 		.nav-btns {
-			color: $lightcream;
+			color: $lightblue;
 		}
 		ul {
 			display: flex;
 			align-items: center;
 		}
 		ul li {
-			margin: 10px;
+			margin: 0 20px;
 		}
 	}
 }

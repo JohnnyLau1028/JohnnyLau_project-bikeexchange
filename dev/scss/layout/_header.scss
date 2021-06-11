@@ -43,8 +43,7 @@ header{
 
 		#button-container {
 			padding: 10px;
-			text-align: center;
-            justify-content: center;
+			text-align: right;
 
 			button {
 				background-color: $lightcream;
@@ -65,6 +64,7 @@ header{
 		}
 
 		#burger-container {
+			color: $lightblue;
 			align-items: center;
 			display: flex;
 			padding: 10px;

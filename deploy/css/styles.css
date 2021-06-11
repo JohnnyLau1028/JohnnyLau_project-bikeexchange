@@ -690,7 +690,8 @@ textarea {
   display: none;
   width: 100%;
   position: absolute;
-  top: 178px;
+  top: 170px;
+  left: 0;
 }
 #nav-container .nav-btns {
   display: inline-block;
@@ -702,7 +703,7 @@ textarea {
   border-bottom: 2px solid transparent;
 }
 #nav-container .nav-btns:hover {
-  border-bottom: 2px solid #05263C;
+  border-bottom: 2px solid #72BCEA;
 }
 #nav-container .nav-btns:active {
   background: #1D1202;
@@ -718,14 +719,14 @@ textarea {
     width: auto;
   }
   #nav-container .nav-btns {
-    color: #F5F0EA;
+    color: #72BCEA;
   }
   #nav-container ul {
     display: flex;
     align-items: center;
   }
   #nav-container ul li {
-    margin: 10px;
+    margin: 0 20px;
   }
 }
 
@@ -769,8 +770,7 @@ header > div {
 }
 header > div #button-container {
   padding: 10px;
-  text-align: center;
-  justify-content: center;
+  text-align: right;
 }
 header > div #button-container button {
   background-color: #F5F0EA;
@@ -788,6 +788,7 @@ header > div #button-container button:hover {
   color: #fff;
 }
 header > div #burger-container {
+  color: #72BCEA;
   align-items: center;
   display: flex;
   padding: 10px;
